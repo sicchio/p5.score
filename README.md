@@ -1,15 +1,30 @@
-# p5.score
-a p5js library for making choreographic scores
+📘 p5.score
+p5.score is a creative coding framework for choreographic scoring using p5.js. It enables artists, dancers, and coders to create, perform, and share scores that combine movement and code.
 
-p5.score explores p5.js as a tool for creating choreographic work through a visual iconography that is generated through code, to create a dynamic and interactive performance environment. It thinks about a place where computation and dance can come together and share language in the space of a dance studio.
+🔧 Features
+<li>Score generation and visualization</li>
+<li>Integration with p5.js drawing and animation tools like <a href ="https://github.com/Milchreis/p5.tween?tab=readme-ov-file">p5tween</a></li>
+<li>Support for improvisational performance</li>
+<li>Modular design for extensibility</li>
+<li>Designed for choreographers, performers, and media artists</li>
 
+Requirements
+<li>p5.js</li>
+<li>A modern web browser</li>
 
+🧠 How It Works
+p5.score uses p5.js to render visual scores that can be interpreted by performers. Scores can be generated algorithmically, manually, or through live coding. The system is designed to be flexible and open-ended, allowing for a wide range of choreographic and performative possibilities.
 
-Things to consider...
+🎓 Workshop Info
+This project is part of a workshop hosted by Kate Sicchio at Virginia Commonwealth University, September 27–28, 2025. Participants explore choreographic coding and score creation using p5.score.
 
-If you are mapping the p5 canvas to the real world
-<li>canvas size will matter for spatial designs</li>
-<li>projections will vary from space to space, projector to projector</li>
+📄 Documentation - MORE TO COME
+API Reference
+Examples
+Tutorials
 
+🧑‍🤝‍🧑 Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
 
-This library uses a cool tweening library, p5.tween https://github.com/Milchreis/p5.tween?tab=readme-ov-file
+📜 License
+MIT License
