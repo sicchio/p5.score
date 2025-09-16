@@ -1,0 +1,25 @@
+{
+  "name": "p5score",
+  "version": "1.0.0",
+  "description": "A choreographic scoring addon for p5.js",
+  "main": "p5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sicchio/p5.score.git"
+  },
+  "keywords": [
+    "p5js",
+    "choreography",
+    "score",
+    "dance"
+  ],
+  "author": "Kate Sicchio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sicchio/p5.score/issues"
+  },
+  "homepage": "https://github.com/sicchio/p5.score#readme"
+}
