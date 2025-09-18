@@ -3,7 +3,7 @@ p5.score is a creative coding framework for choreographic scoring using <a href 
 <br>
 <br>
 
-Usage <br>
+💃 Usage <br>
 Add a script tag to your sketch:
  ```
  <script src="https://cdn.jsdelivr.net/npm/p5score@0.0.1"></script>
@@ -17,28 +17,24 @@ Add a script tag to your sketch:
 <li>Designed for choreographers, performers, and media artists</li>
 <br>
 <br>
-Requirements
+💻 Requirements
 <li>p5.js</li>
 <li>A modern web browser</li>
 <br>
 <br>
-📄 Documentation - MORE TO COME
+📄 Documentation 
 <li> API Documentation</li>
 <a href ="https://www.sicchio.com/p5score">Documentation here</a>
 <li>Examples</li>
 <a href = "https://editor.p5js.org/sicchio/collections/yKC43K3nj"> https://editor.p5js.org/sicchio/collections/yKC43K3nj</a>
 <li> Tutorials</li>
+More soon!
 <br>
 <br>
 🧠 How It Works
 p5.score uses p5.js to render visual scores that can be interpreted by performers. Scores can be generated algorithmically, manually, or through live coding. The system is designed to be flexible and open-ended, allowing for a wide range of choreographic and performative possibilities.
 <br>
 <br>
-🎓 Workshop Info
-This project is part of a workshop hosted by Kate Sicchio at Virginia Commonwealth University, September 27–28, 2025. Participants explore choreographic coding and score creation using p5.score.
-<br>
-<br>
-
 🧑‍🤝‍🧑 Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 <br>
