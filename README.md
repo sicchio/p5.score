@@ -32,7 +32,7 @@ This project is part of a workshop hosted by Kate Sicchio at Virginia Commonweal
 <br>
 📄 Documentation - MORE TO COME
 <li>Examples</li>
-<a href = "https://editor.p5js.org/sicchio/collections/yKC43K3nj" https://editor.p5js.org/sicchio/collections/yKC43K3nj</a>
+<a href = "https://editor.p5js.org/sicchio/collections/yKC43K3nj"> https://editor.p5js.org/sicchio/collections/yKC43K3nj</a>
 <li> Tutorials</li>
 <br>
 <br>
