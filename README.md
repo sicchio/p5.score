@@ -3,7 +3,7 @@ p5.score is a creative coding framework for choreographic scoring using <a href 
 <br>
 <br>
 
-Usage: <br>
+Usage <br>
 Add a script tag to your sketch:
  ```
  <script src="https://cdn.jsdelivr.net/npm/p5score@0.0.1"></script>
