@@ -23,6 +23,8 @@ Requirements
 <br>
 <br>
 📄 Documentation - MORE TO COME
+<li> API Documentation</li>
+<a href ="https://www.sicchio.com/p5score">Documentation here</a>
 <li>Examples</li>
 <a href = "https://editor.p5js.org/sicchio/collections/yKC43K3nj"> https://editor.p5js.org/sicchio/collections/yKC43K3nj</a>
 <li> Tutorials</li>
