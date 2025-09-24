@@ -2,27 +2,27 @@ var p5;!function(t){!function(t){t.EASINGS={linear:t=>t,easeInQuad:t=>t*t,easeOu
 
 
 class Dancer {
-  constructor(x, y, dur, pos, col) {
+  constructor(x, y, dur, pos, col, shape) {
     this.x = x;
     this.y = y;
     this.dur = dur; //how long is each movement
     this.pos = pos;
     this.col = col;
+    this.shape = myShape;
   }
 
   show() {
     stroke(this.col);
     fill(this.col);
-    //noFill();
-    ellipseMode(CORNER);
-    ellipse(this.x, this.y, 100, 100);
+  
+    circle(this.x, this.y, this.shape);
   }
 
   moves() {
-
+    
     this.inTween = p5.tween.manager.addTween(this);
 
-    for (let i = 0; i < this.pos.length; i++) {
+    for (let i = 0; i < this.pos.length; i += 2) { 
       let duration = this.dur[i] || 1000;
       this.inTween.addMotions(
         [
@@ -30,14 +30,14 @@ class Dancer {
           { key: "y", target: this.pos[i + 1] },
         ],
         duration
-      );
+      );   
     }
     this.inTween.startLoop();
   }
-
-
-}
-
+  
+  
+} 
+  
 
 ///////STAGE DIRECTIONS///////
 
@@ -70,15 +70,15 @@ function uc() {
 
 function ul() {
   let upLeft = {
-    x: width / 2 - width / 3,
-    y: height / 2 - height / 3,
+    x: width - width/6  ,
+    y: height/6 ,
   };
   return upLeft;
 }
 
 function cl() {
   let centerLeft = {
-    x: width / 2 - width / 3,
+    x: width -width/6,
     y: height/ 2 ,
   };
   return centerLeft;
@@ -86,18 +86,18 @@ function cl() {
 
 function cr() {
   let centerRight = {
-    x: width - width / 6,
+    x: width / 6,
     y: height / 2,
   };
   return centerRight;
 }
 
-function dr() {
-  let downRight = {
+function dl() {
+  let downLeft = {
     x: width -width/6,
     y: height - height/6,
   };
-  return downRight;
+  return downLeft;
 }
 
 function dc() {
@@ -108,12 +108,12 @@ function dc() {
   return downCenter;
 }
 
-function dl() {
-  let downLeft = {
+function dr() {
+  let downRight = {
     x: width/6,
     y: height - height/6,
   };
-  return downLeft;
+  return downRight;
 }
 
 //
@@ -151,3 +151,5 @@ function stageNames() {
 
   text("Audience", width / 3 + 50, height);
 }
+
+
