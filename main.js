@@ -8,7 +8,7 @@ class Dancer {
     this.dur = dur; //how long is each movement
     this.pos = pos;
     this.col = col;
-    this.shape = myShape;
+    this.shape = shape;
   }
 
   show() {
