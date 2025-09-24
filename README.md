@@ -1,11 +1,12 @@
 📘 p5.score
+<br>
 p5.score is a creative coding framework for choreographic scoring using <a href = "https://p5js.org/">p5.js </a>. It enables artists, dancers, and coders to create, perform, and share scores that combine movement and code.
 <br>
 <br>
 💃 Usage <br>
 Add a script tag to your sketch:
  ```
- <script src="https://cdn.jsdelivr.net/npm/p5score@0.0.1"></script>
+ <script src="https://cdn.jsdelivr.net/npm/p5score@0.1.0"></script>
 ```
 🔧 Features
 <li>Score generation and visualization</li>
